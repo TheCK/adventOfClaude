@@ -1,11 +1,9 @@
 package org.ck.adventofclaude.year2025;
 
 import org.ck.adventofclaude.util.BaseAOCTest;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
-@Disabled
 class Day01Test extends BaseAOCTest {
   @ParameterizedTest
   @ValueSource(strings = {"01a"})
