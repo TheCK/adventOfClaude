@@ -10,12 +10,12 @@ class Day05Test extends BaseAOCTest {
   @ParameterizedTest
   @ValueSource(strings = {"01a"})
   void testPartOneExamples(final String name) throws Exception {
-    runTest(new Day01()::partOne, "day05/%s".formatted(name));
+    runTest(new Day05()::partOne, "day05/%s".formatted(name));
   }
 
   @ParameterizedTest
   @ValueSource(strings = {"02a"})
   void testPartTwoExamples(final String name) throws Exception {
-    runTest(new Day01()::partTwo, "day05/%s".formatted(name));
+    runTest(new Day05()::partTwo, "day05/%s".formatted(name));
   }
 }
